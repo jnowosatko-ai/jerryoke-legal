@@ -11,7 +11,7 @@
   <header>
     <a class="brand" href="index.html">JerryOke</a>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective date: 26 August 2026</p>
+    <p class="meta">Effective date: 15 September 2026</p>
     <nav class="site" aria-label="Site">
       <a href="index.html">Home</a>
       <a href="support.html">Support</a>
@@ -25,11 +25,12 @@
 
     <h2>Information stored on your iPhone</h2>
     <p>Song lists and other app data you create are stored on your iPhone. They are not uploaded to a JerryOke server, and this version of the app does not create a JerryOke account.</p>
-    <p>If you have iCloud enabled, those catalogs may also be included in an Apple iCloud backup, as described below.</p>
-    <p>If you delete JerryOke, locally stored lists and app data are deleted with the app. Any iCloud backup of that data remains under your Apple account until you remove it.</p>
+    <p>If you have iCloud enabled, those catalogs may also sync or be included in an Apple iCloud backup, as described below. You may also choose to write an optional catalog backup file to iCloud Drive.</p>
+    <p>If you delete JerryOke, locally stored lists and app data are deleted with the app. Any iCloud backup or iCloud Drive file remains under your Apple account until you remove it.</p>
 
     <h2>iCloud</h2>
-    <p>If iCloud is enabled on your device, your JerryOke catalogs may be backed up through Apple iCloud. JerryOke does not operate its own account system or server. Apple processes iCloud backups under Apple’s privacy practices.</p>
+    <p>If iCloud is enabled on your device, your JerryOke catalogs may sync or be backed up through Apple iCloud. JerryOke does not operate its own account system or server. Apple processes iCloud data under Apple’s privacy practices.</p>
+    <p>This version can also write an optional catalog backup file to iCloud Drive Documents at <strong>JerryOke/catalog-export.csv</strong>. That file may include song fields you keep in the catalog, such as Title, Artist, Key, Catalog or Practice status, tags, range, and YouTube ids. The file is stored in your iCloud Drive, not in a JerryOke account.</p>
 
     <h2>Location</h2>
     <p>Location access is optional. If you allow <strong>When In Use</strong> location, JerryOke uses it only to help find karaoke venues.</p>
@@ -45,14 +46,12 @@
     <h2>Microphone and music recognition</h2>
     <p>This version of JerryOke uses the microphone for:</p>
     <ul>
-      <li><strong>Song identification</strong> with Apple ShazamKit. Audio captured for identification may be processed by Apple.</li>
-      <li><strong>On-device sing coaching</strong> that measures pitch and loudness.</li>
-      <li><strong>On-device pitch pipe / current-note.</strong></li>
+      <li><strong>Listen</strong> — song identification with Apple ShazamKit. Audio captured for identification may be processed by Apple. JerryOke does not send this audio to a JerryOke server.</li>
+      <li><strong>On-device coaching</strong> that measures pitch and loudness against the musical Key you typed. This processing stays on your device. It does not send microphone audio to a JerryOke server, and it does not score your singing against YouTube audio or a licensed melody catalog.</li>
     </ul>
-    <p>Sing coaching and the pitch pipe stay on your device. They do not send microphone audio to a JerryOke server, and they do not score your singing against YouTube audio or a licensed melody catalog.</p>
 
-    <h2>Musical key lookups</h2>
-    <p>JerryOke may send a song title and artist to GetSongBPM to fill musical Key. GetSongBPM may process those lookups under its own terms and privacy practices. Attribution for GetSongBPM is on the <a href="support.html">support page</a>.</p>
+    <h2>Musical Key</h2>
+    <p>In this version, musical Key is entered by you. JerryOke does not look up Key from GetSongBPM or another key-lookup service.</p>
 
     <h2>Analytics, tracking, and advertising</h2>
     <p>JerryOke does not include analytics, tracking, or ads.</p>
